@@ -41,12 +41,12 @@ class App extends Component {
 
 
   getData() {
-    let API = `http://api.openweathermap.org/data/2.5/weather?q=${this.state.value}&appid=${API_KEY}&units=metric`
+    let API = `https://api.openweathermap.org/data/2.5/weather?q=${this.state.value}&appid=${API_KEY}&units=metric`
 
 
     if (this.state.currentLatitude && this.state.currentLongitude) {
 
-      API = `http://api.openweathermap.org/data/2.5/weather?lat=${this.state.currentLatitude}&lon=${this.state.currentLongitude}&appid=${API_KEY}&units=metric`
+      API = `https://api.openweathermap.org/data/2.5/weather?lat=${this.state.currentLatitude}&lon=${this.state.currentLongitude}&appid=${API_KEY}&units=metric`
 
       this.setState({
         currentLatitude: '',
