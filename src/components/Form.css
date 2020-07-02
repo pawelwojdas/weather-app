@@ -1,0 +1,26 @@
+form {
+    position: fixed;
+    top: 2vh;
+    text-align: center;
+}
+
+input {
+    padding: 4px 6px;
+    font-size: 14px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+button {
+    margin-left: 1vw;
+    padding: 4px 6px;
+    font-size: 14px;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+/* button:hover {
+    background-color: black;
+    color: white;
+} */

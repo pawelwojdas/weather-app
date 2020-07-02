@@ -1,0 +1,19 @@
+.results {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: rgba(0, 0, 0, 0.3);
+    width: 70%;
+    height: 70%;
+    border-radius: 15px;
+    padding: 5px 10px;
+}
+
+.place { 
+
+}
+
+img {
+    width: 80%;
+}
